@@ -9,3 +9,15 @@ WashAway is based on the UNET architecture implemented with PyTorch and utilizes
 # Custom Dataset
 
 The dataset used for training was custom-built, comprising a variety of watermarked images and their corresponding clean versions. This ensures the model generalizes well across different watermark styles and image complexities.
+
+# Example
+
+# Input
+![input](https://github.com/kamalnayan10/WashAway/blob/main/watermarked.jpg)
+
+# Output
+![output](https://github.com/kamalnayan10/WashAway/blob/main/test_output.jpg)
+
+# Original
+![Original](https://github.com/kamalnayan10/WashAway/blob/main/test.jpg)
+
