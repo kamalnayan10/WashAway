@@ -101,7 +101,7 @@ Feel free to fork the repo and submit a pull request for improvements or bug fix
 
 ## 📄 License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License – see the [LICENSE](https://github.com/kamalnayan10/WashAway/blob/main/LICENSE) file for details.
 
 ---
 
