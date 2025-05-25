@@ -43,7 +43,7 @@ The generator and discriminator weights are available here:
 
 📁 [Google Drive - Model Weights](https://drive.google.com/drive/folders/1rERvSJJeR-DjFMHycWT1_QjVXULk3xth?usp=sharing)
 
-Download and place the weights in the appropriate directory (as expected by your code, typically something like `./checkpoints/`).
+Download and place the weights in the WashAway directory
 
 ---
 
@@ -82,10 +82,23 @@ WashAway/
 ├── utils.py              # Utility functions
 ├── config.py             # Configuration and hyperparameters
 ├── requirements.txt      # Python dependencies
-└── checkpoints/          # Directory to place downloaded weights
+├── disc.pth.tar          # Discriminator Weights
+└── gen.pth.tar           # Generator Weights
 ```
 
 ---
+
+## 📸 Example
+
+| Watermarked Input | Model Output | Original (Ground Truth) |
+|-------------------|--------------|--------------------------|
+| ![](watermarked.jpg) | ![](test_output.jpg) | ![](test.jpg) |
+
+> 📐 *Images are scaled for clarity. All images are of equal dimension.*
+
+
+---
+
 
 ## 🤝 Contributing
 
@@ -102,12 +115,5 @@ Feel free to fork the repo and submit a pull request for improvements or bug fix
 ## 📄 License
 
 This project is licensed under the MIT License – see the [LICENSE](https://github.com/kamalnayan10/WashAway/blob/main/LICENSE) file for details.
-
----
-
-## 🙋‍♂️ Maintainers
-
-Created by [Kamal Nayan](https://github.com/kamalnayan10)
-Maintained with minor contributions by friends and the open-source community.
 
 ---
